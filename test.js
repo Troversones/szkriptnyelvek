@@ -1,3 +1,4 @@
+//first example
 let szam = 10;
 
 function kezfogas(szam){
