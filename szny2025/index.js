@@ -54,3 +54,26 @@ function calcCircleArea(radius){
 }
 
 console.log(calcCircleArea(10));
+
+function kezfogas(emberek){
+    let kezfogasCount = 0;
+    for(var i = emberek; i > 0; i--){
+        for(var y = emberek - 1; y > 0; y--){
+            kezfogasCount++;
+        }
+        emberek--;
+    }
+    return kezfogasCount;
+}
+
+console.log(kezfogas(10));
+
+function egyezes(par1, par2){
+    if (typeof par1 == typeof par2 && par1 == par2){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(egyezes(true, true));
