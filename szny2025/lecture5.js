@@ -17,7 +17,7 @@ console.log(o3);
 
 let human1 = {
     name: "Test1",
-    age: 25,
+    age: 20,
     address: {
         city: "Test city",
         zipCode: "Test street 1."
@@ -77,7 +77,7 @@ console.log(jsonString);
 let json = JSON.parse(jsonString);
 console.log(json);
 //nem lehet összehasonlítani === -vel
-
+console.log("--------");
 let h = {
     ...human1,
     ...human2
